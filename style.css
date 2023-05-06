@@ -22,7 +22,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  opacity: 0.6;
+  opacity: 0.9;
 
   width: 100%;
   height: 100vh;
@@ -38,18 +38,29 @@ body {
   margin-top: 300px;
   margin-bottom: 500px;
   padding: 20px;
-  border: 13px solid rgb(179, 109, 202);
+  outline-offset: 1rem;
+
+  outline: 10px inset #a54ba5;
   border-top-left-radius: 55px;
   border-bottom-right-radius: 55px;
+  width: 580px;
+  color: #fff;
+  background-color: rgb(9, 9, 9);
+}
+.image-container {
+  background-color: transparent;
 }
 .heading-container h1 {
   color: white;
   background: black;
-
   padding: 30px;
   border: 2px solid rgb(179, 109, 202);
   border-top-left-radius: 55px;
   border-bottom-right-radius: 55px;
+}
+.logo img {
+  width: 40%;
+  opacity: 0.9;
 }
 .section {
   text-align: center;
